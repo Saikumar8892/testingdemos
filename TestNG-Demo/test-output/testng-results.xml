@@ -1,34 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-27T21:47:57 IST" name="Suite" finished-at="2022-09-27T21:47:57 IST" duration-ms="51">
+  <suite started-at="2022-09-28T11:07:02 IST" name="Suite" finished-at="2022-09-28T11:07:02 IST" duration-ms="53">
     <groups>
-      <group name="Smoke">
-        <method signature="CarLoanApplicationTests.CarLoanLoginMobile()[pri:0, instance:loanapplications.CarLoanApplicationTests@3c22fc4c]" name="CarLoanLoginMobile" class="loanapplications.CarLoanApplicationTests"/>
-        <method signature="HomeLoanApplicationTests.APIHomeLoan()[pri:0, instance:loanapplications.HomeLoanApplicationTests@79b06cab]" name="APIHomeLoan" class="loanapplications.HomeLoanApplicationTests"/>
-        <method signature="PersonalLoanApplicationTests.PersonalLoanLoginWeb()[pri:0, instance:loanapplications.PersonalLoanApplicationTests@48fa0f47]" name="PersonalLoanLoginWeb" class="loanapplications.PersonalLoanApplicationTests"/>
-      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2022-09-27T21:47:57 IST" name="SmokeTests" finished-at="2022-09-27T21:47:57 IST" duration-ms="51">
-      <class name="loanapplications.CarLoanApplicationTests">
-        <test-method signature="CarLoanLoginMobile()[pri:0, instance:loanapplications.CarLoanApplicationTests@3c22fc4c]" started-at="2022-09-27T21:47:57 IST" name="CarLoanLoginMobile" finished-at="2022-09-27T21:47:57 IST" duration-ms="0" status="PASS">
+    <test started-at="2022-09-28T11:07:02 IST" name="SmokeTests" finished-at="2022-09-28T11:07:02 IST" duration-ms="53">
+      <class name="testpkg.ParamTest">
+        <test-method signature="applyForLoan(java.lang.String,int)[pri:0, instance:testpkg.ParamTest@12e61fe6]" started-at="2022-09-28T11:07:02 IST" name="applyForLoan" data-provider="getData" finished-at="2022-09-28T11:07:02 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CarLoanLoginMobile -->
-      </class> <!-- loanapplications.CarLoanApplicationTests -->
-      <class name="loanapplications.HomeLoanApplicationTests">
-        <test-method signature="APIHomeLoan()[pri:0, instance:loanapplications.HomeLoanApplicationTests@79b06cab]" started-at="2022-09-27T21:47:57 IST" name="APIHomeLoan" finished-at="2022-09-27T21:47:57 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- applyForLoan -->
+        <test-method signature="applyForLoan(java.lang.String,int)[pri:0, instance:testpkg.ParamTest@12e61fe6]" started-at="2022-09-28T11:07:02 IST" name="applyForLoan" data-provider="getData" finished-at="2022-09-28T11:07:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- APIHomeLoan -->
-      </class> <!-- loanapplications.HomeLoanApplicationTests -->
-      <class name="loanapplications.PersonalLoanApplicationTests">
-        <test-method signature="PersonalLoanLoginWeb()[pri:0, instance:loanapplications.PersonalLoanApplicationTests@48fa0f47]" started-at="2022-09-27T21:47:57 IST" name="PersonalLoanLoginWeb" finished-at="2022-09-27T21:47:57 IST" duration-ms="9" status="PASS">
+        </test-method> <!-- applyForLoan -->
+        <test-method signature="applyForLoan(java.lang.String,int)[pri:0, instance:testpkg.ParamTest@12e61fe6]" started-at="2022-09-28T11:07:02 IST" name="applyForLoan" data-provider="getData" finished-at="2022-09-28T11:07:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[will]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PersonalLoanLoginWeb -->
-      </class> <!-- loanapplications.PersonalLoanApplicationTests -->
+        </test-method> <!-- applyForLoan -->
+      </class> <!-- testpkg.ParamTest -->
     </test> <!-- SmokeTests -->
   </suite> <!-- Suite -->
 </testng-results>

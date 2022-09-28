@@ -7,6 +7,7 @@
       <class name="testpkg.sample2"/>
       <class name="loanapplications.CarLoanApplicationTests"/>
       <class name="loanapplications.HomeLoanApplicationTests"/>
+      <class name="loanapplications.PersonalLoanApplicationTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
