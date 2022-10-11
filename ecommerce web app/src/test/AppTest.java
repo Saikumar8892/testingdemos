@@ -1,16 +1,12 @@
 package test;
 
-import org.testng.annotations.Test;
+
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByClassName;
-import org.openqa.selenium.By.ById;
-import org.openqa.selenium.By.ByName;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-
 
 public class AppTest {
 	WebDriver driver;
@@ -70,6 +66,5 @@ public class AppTest {
 			e.printStackTrace();
 		}
 	}
-
-
+	
 }
