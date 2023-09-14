@@ -51,16 +51,10 @@ public class AppTest<WebDriver> {
 	      	cd.get("https://www.amazon.in/");
 		    System.out.println(cd.getTitle());
 		    System.out.println(cd.getCurrentUrl());
-		    cd.findElement(By.id("twotabsearchtextbox")).sendKeys("OnePlus mobiles");
-		    Thread.sleep(3000);
+		    cd.findElement(By.id("twotabsearchtextbox")).sendKeys("Oneplus mobiles");
+		    Thread.sleep(5000);
 		    cd.findElement(By.id("nav-search-submit-button")).submit();
-		    cd.findElement(By.linkText("OnePlus 10T 5G (Moonstone Black, 16GB RAM, 256GB Storage)")).click();
+		    cd.findElement(By.linkText("OnePlus Nord CE 2 5G (Gray Mirror, 8GB RAM, 128GB Storage)")).click();
 	        cd.findElement(By.id("add-to-cart-button")).click();
 	  }
-	     
-
-	     
-	  
-	
-
 }

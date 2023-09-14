@@ -4,15 +4,16 @@ package com.basic;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class Login {
 
 	 public static void main(String[] args)
 	    {
-		 System.setProperty("webdriver.chrome.driver","C:\\Users\\saikumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
-			WebDriver driver = new ChromeDriver();
-			
-			driver.get("https://www.facebook.com/login/");
+		 System.setProperty(
+		            "webdriver.edge.driver",
+		            "C:\\Users\\saikumar\\Downloads\\edgedriver_win64\\msedgedriver.exe");
+		        WebDriver driver = new EdgeDriver();
 			
 	        
 	        driver.manage().window().maximize();

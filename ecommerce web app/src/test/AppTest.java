@@ -14,7 +14,10 @@ public class AppTest {
 	
 	@Test(groups = "Chrome")
 	public void LaunchChrome() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\saikumar\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		 System.setProperty(
+		            "webdriver.chrome.driver",
+		            "C:\\Users\\saikumar\\Downloads\\chromedriver-win32\\chromedriver.exe");
+		        
 		try {
 			Thread.sleep(2000);
 		} catch (Exception e) {
@@ -24,7 +27,8 @@ public class AppTest {
 
 	@Test(groups = "Chrome", dependsOnMethods = "LaunchChrome")
 	public void Chrome() {
-		WebDriver driver = new ChromeDriver();
+		
+		        WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
 		
