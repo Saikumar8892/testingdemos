@@ -7,16 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
 public class AppTest {
 	WebDriver driver;
 	
-	@Test(groups = "Chrome")
-	public void LaunchChrome() {
-		 System.setProperty(
-		            "webdriver.chrome.driver",
-		            "C:\\Users\\saikumar\\Downloads\\chromedriver-win32\\chromedriver.exe");
+	@Test(groups = "Firefox")
+	public void LaunchFirefox() {
+		System.setProperty("webdriver.gecko.driver",
+				"C:\\Ulearning\\geckodriver.exe");
 		        
 		try {
 			Thread.sleep(2000);
@@ -25,10 +25,10 @@ public class AppTest {
 		}
 	}
 
-	@Test(groups = "Chrome", dependsOnMethods = "LaunchChrome")
-	public void Chrome() {
+	@Test(groups = "Firefox", dependsOnMethods = "LaunchFirefox")
+	public void Firefox() {
 		
-		        WebDriver driver = new ChromeDriver();
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.flipkart.com/");
 		

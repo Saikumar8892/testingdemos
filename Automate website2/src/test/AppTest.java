@@ -12,6 +12,7 @@ import org.testng.annotations.Test;
 
 
 
+@SuppressWarnings("hiding")
 public class AppTest<WebDriver> {
 	//test case is pass without any assert-by checking the flow 
 	@Test(priority = 1)

@@ -5,9 +5,9 @@
     <classes>
       <class name="test.AppTest">
         <methods>
-          <include name="LaunchChrome"/>
-          <include name="Chrome"/>
+          <include name="LaunchFirefox"/>
           <include name="Edge"/>
+          <include name="Firefox"/>
           <include name="LaunchEdge"/>
         </methods>
       </class> <!-- test.AppTest -->
